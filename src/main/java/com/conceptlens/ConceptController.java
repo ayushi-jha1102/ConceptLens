@@ -15,7 +15,7 @@ public class ConceptController {
     }
 
     @GetMapping("/api/concepts")
-    public List<String> getConcepts() {
+    public List<Concept> getConcepts() {
         return conceptService.getAllConcepts();
     }
 }
